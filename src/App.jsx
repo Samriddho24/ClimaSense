@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import "./App.css";
+import axios from 'axios';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
-  const[city, setCity] = useState(" ");
+  const[city, setCity] = useState("");
+  const[weather, setWeather] = useState(null);
   return (
     <div className='container'>
         <h1>ClimaSense</h1>
@@ -16,8 +19,18 @@ function App() {
         <button onClick={handleSearch}>Search</button>
     </div>
   )
-  function handleSearch(){
-    console.log(city);
+  async function handleSearch() {
+    try {
+      const response = await axios.get(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&appid=${API_KEY}&units=metric`
+      );
+  
+      console.log(response.data);
+      setWeather(response.data);
+  
+    } catch (error) {
+      console.log(error.response?.data);
+    }
   }
 }
 
