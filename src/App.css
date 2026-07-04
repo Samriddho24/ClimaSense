@@ -53,3 +53,30 @@ button:hover {
   color:white;
   cursor:pointer;
 }
+.default{
+  background: linear-gradient(135deg,#dbeafe,#bfdbfe);
+}
+
+.clear{
+  background: linear-gradient(135deg,#FFF7AE,#FFE082,#FFD54F);
+}
+
+.clouds{
+  background: linear-gradient(135deg,#cfd9df,#e2ebf0);
+}
+
+.rain{
+  background: linear-gradient(135deg,#4b79a1,#283e51);
+}
+
+.thunderstorm{
+  background: linear-gradient(135deg,#373B44,#4286f4);
+}
+
+.snow{
+  background: linear-gradient(135deg,#E6F3FF,#D6ECFF,#C8E6FF);
+}
+
+.mist{
+  background: linear-gradient(135deg,#d7d2cc,#304352);
+}
