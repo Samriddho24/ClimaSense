@@ -80,7 +80,7 @@ npm run dev
 
 ## 📸 Preview
 
-<img width="900" alt="ClimaSense Preview" src="YOUR_SCREENSHOT_LINK_HERE">
+![ClimaSense Preview](Screenshot1.png)
 
 ---
 
@@ -104,13 +104,3 @@ https://openweathermap.org/current
 
 ---
 
-## 👨‍💻 Author
-
-**Samriddho Kar**
-
-- GitHub: https://github.com/Samriddho24
-- LinkedIn: https://www.linkedin.com/in/samriddhokar/
-
----
-
-⭐ If you found this project useful, consider giving it a star!
