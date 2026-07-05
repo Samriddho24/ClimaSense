@@ -1,16 +1,116 @@
-# React + Vite
+# 🌦️ ClimaSense
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClimaSense is a modern weather application built with **React** and the **OpenWeatherMap API**. It allows users to search for any city and instantly view real-time weather information with a clean, responsive interface and dynamic weather-based backgrounds.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature
+- 💧 Humidity information
+- 🌬️ Wind speed
+- ☁️ Weather condition with icons
+- 🎨 Dynamic UI background based on weather conditions
+- 📱 Responsive and modern interface
+- ⚡ Fast API requests using Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- Axios
+- OpenWeatherMap API
+
+---
+
+## 📂 Project Structure
+
+```
+ClimaSense/
+│── public/
+│── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│── .env
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ClimaSense.git
+```
+
+Move into the project directory
+
+```bash
+cd ClimaSense
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root and add your OpenWeatherMap API key
+
+```env
+VITE_API_KEY=YOUR_API_KEY
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+<img width="900" alt="ClimaSense Preview" src="YOUR_SCREENSHOT_LINK_HERE">
+
+---
+
+## 🌍 API Used
+
+- OpenWeatherMap Current Weather API
+
+https://openweathermap.org/current
+
+---
+
+## 🔮 Future Improvements
+
+- 📅 5-Day Weather Forecast
+- 📍 Current Location Weather
+- 🌅 Sunrise & Sunset Information
+- 🌫️ Air Quality Index
+- ⭐ Favorite Cities
+- 🌙 Dark Mode
+- 📊 More Detailed Weather Statistics
+
+---
+
+## 👨‍💻 Author
+
+**Samriddho Kar**
+
+- GitHub: https://github.com/Samriddho24
+- LinkedIn: https://www.linkedin.com/in/samriddhokar/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
