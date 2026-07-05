@@ -82,13 +82,6 @@ npm run dev
 
 ![ClimaSense Preview](Screenshot1.png)
 
----
-
-## 🌍 API Used
-
-- OpenWeatherMap Current Weather API
-
-https://openweathermap.org/current
 
 ---
 
